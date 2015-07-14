@@ -1,0 +1,231 @@
+{
+    "ambientocclusion": true,
+    "textures": {
+        "particle": "blocks/crate",
+        "crate": "blocks/crate",
+        "crate_fox": "blocks/crate_fox"
+    },
+    "elements": [
+        {   "name": "box",
+            "from": [ 1, 1, 1 ],
+            "to": [ 15, 15, 15 ],
+            "faces": {
+                "down":  { "texture": "#crate", "cullface": "down" },
+                "up":    { "texture": "#crate_fox", "cullface": "up" },
+                "north": { "texture": "#crate", "cullface": "north" },
+                "south": { "texture": "#crate_fox", "cullface": "south" },
+                "west":  { "texture": "#crate", "cullface": "west" },
+                "east":  { "texture": "#crate_fox", "cullface": "east" }
+            }
+        },
+        {   "name": "beam_nw",
+            "from": [ 0, 0, 0 ],
+            "to": [ 2, 16, 2 ],
+            "faces": {
+                "down":  { "texture": "#crate", "cullface": "down" },
+                "up":    { "texture": "#crate", "cullface": "up" },
+                "north": { "texture": "#crate", "cullface": "north" },
+                "south": { "texture": "#crate" },
+                "west":  { "texture": "#crate", "cullface": "west" },
+                "east":  { "texture": "#crate" }
+            }
+        },
+        {   "name": "beam_ne",
+            "from": [ 14, 0, 0 ],
+            "to": [ 16, 16, 2 ],
+            "faces": {
+                "down":  { "texture": "#crate", "cullface": "down" },
+                "up":    { "texture": "#crate", "cullface": "up" },
+                "north": { "texture": "#crate", "cullface": "north" },
+                "south": { "texture": "#crate" },
+                "west":  { "texture": "#crate" },
+                "east":  { "texture": "#crate", "cullface": "east" }
+            }
+        },
+        {   "name": "beam_se",
+            "from": [ 14, 0, 14 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#crate", "cullface": "down" },
+                "up":    { "texture": "#crate", "cullface": "up" },
+                "north": { "texture": "#crate" },
+                "south": { "texture": "#crate", "cullface": "south" },
+                "west":  { "texture": "#crate" },
+                "east":  { "texture": "#crate", "cullface": "east" }
+            }
+        },
+        {   "name": "beam_sw",
+            "from": [ 0, 0, 14 ],
+            "to": [ 2, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#crate", "cullface": "down" },
+                "up":    { "texture": "#crate", "cullface": "up" },
+                "north": { "texture": "#crate" },
+                "south": { "texture": "#crate", "cullface": "south" },
+                "west":  { "texture": "#crate", "cullface": "west" },
+                "east":  { "texture": "#crate" }
+            }
+        },
+        {   "name": "beam_dw",
+            "from": [ 0, 0, 2 ],
+            "to": [ 2, 2, 14 ],
+            "faces": {
+                "down":  { "texture": "#crate", "cullface": "down" },
+                "up":    { "texture": "#crate" },
+                "north": { "texture": "#crate", "cullface": "north" },
+                "south": { "texture": "#crate", "cullface": "south" },
+                "west":  { "texture": "#crate", "cullface": "west" },
+                "east":  { "texture": "#crate" }
+            }
+        },
+        {   "name": "beam_dn",
+            "from": [ 2, 0, 0 ],
+            "to": [ 14, 2, 2 ],
+            "faces": {
+                "down":  { "texture": "#crate", "cullface": "down" },
+                "up":    { "texture": "#crate" },
+                "north": { "texture": "#crate", "cullface": "north" },
+                "south": { "texture": "#crate" },
+                "west":  { "texture": "#crate", "cullface": "west" },
+                "east":  { "texture": "#crate", "cullface": "east" }
+            }
+        },
+        {   "name": "beam_de",
+            "from": [ 14, 0, 2 ],
+            "to": [ 16, 2, 14 ],
+            "faces": {
+                "down":  { "texture": "#crate", "cullface": "down" },
+                "up":    { "texture": "#crate" },
+                "north": { "texture": "#crate", "cullface": "north" },
+                "south": { "texture": "#crate", "cullface": "south" },
+                "west":  { "texture": "#crate" },
+                "east":  { "texture": "#crate", "cullface": "east" }
+            }
+        },
+        {   "name": "beam_ds",
+            "from": [ 2, 0, 14 ],
+            "to": [ 14, 2, 16 ],
+            "faces": {
+                "down":  { "texture": "#crate", "cullface": "down" },
+                "up":    { "texture": "#crate" },
+                "north": { "texture": "#crate" },
+                "south": { "texture": "#crate", "cullface": "south" },
+                "west":  { "texture": "#crate", "cullface": "west" },
+                "east":  { "texture": "#crate", "cullface": "east" }
+            }
+        },
+        {   "name": "beam_uw",
+            "from": [ 0, 14, 2 ],
+            "to": [ 2, 16, 14 ],
+            "faces": {
+                "down":  { "texture": "#crate" },
+                "up":    { "texture": "#crate", "cullface": "up" },
+                "north": { "texture": "#crate", "cullface": "north" },
+                "south": { "texture": "#crate", "cullface": "south" },
+                "west":  { "texture": "#crate", "cullface": "west" },
+                "east":  { "texture": "#crate" }
+            }
+        },
+        {   "name": "beam_un",
+            "from": [ 2, 14, 0 ],
+            "to": [ 14, 16, 2 ],
+            "faces": {
+                "down":  { "texture": "#crate" },
+                "up":    { "texture": "#crate", "cullface": "up" },
+                "north": { "texture": "#crate", "cullface": "north" },
+                "south": { "texture": "#crate" },
+                "west":  { "texture": "#crate", "cullface": "west" },
+                "east":  { "texture": "#crate", "cullface": "east" }
+            }
+        },
+        {   "name": "beam_ue",
+            "from": [ 14, 14, 2 ],
+            "to": [ 16, 16, 14 ],
+            "faces": {
+                "down":  { "texture": "#crate" },
+                "up":    { "texture": "#crate", "cullface": "up" },
+                "north": { "texture": "#crate", "cullface": "north" },
+                "south": { "texture": "#crate", "cullface": "south" },
+                "west":  { "texture": "#crate" },
+                "east":  { "texture": "#crate", "cullface": "east" }
+            }
+        },
+        {   "name": "beam_us",
+            "from": [ 2, 14, 14 ],
+            "to": [ 14, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#crate" },
+                "up":    { "texture": "#crate", "cullface": "up" },
+                "north": { "texture": "#crate" },
+                "south": { "texture": "#crate", "cullface": "south" },
+                "west":  { "texture": "#crate", "cullface": "west" },
+                "east":  { "texture": "#crate", "cullface": "east" }
+            }
+        },
+        {   "name": "beam_dnw_usw",
+            "from": [ 0.5, 3, 0 ],
+            "to": [ 2.5, 15, 2 ],
+            "rotation": { "origin": [ 0, 2, 0 ], "axis": "x", "angle": 45, "rescale": true },
+            "faces": {
+                "down":  { "texture": "#crate", "cullface": "down" },
+                "up":    { "texture": "#crate", "cullface": "up" },
+                "north": { "texture": "#crate", "uv": [ 0, 0, 2, 12 ] },
+                "south": { "texture": "#crate" },
+                "west":  { "texture": "#crate", "cullface": "west" },
+                "east":  { "texture": "#crate", "cullface": "east" }
+            }
+        },
+        {   "name": "beam_dsw_unw",
+            "from": [ 0.25, 3, 14 ],
+            "to": [ 2.25, 15, 16 ],
+            "rotation": { "origin": [ 0, 2, 16 ], "axis": "x", "angle": -45, "rescale": true },
+            "faces": {
+                "down":  { "texture": "#crate", "cullface": "down" },
+                "up":    { "texture": "#crate", "cullface": "up" },
+                "north": { "texture": "#crate", "uv": [ 0, 0, 2, 12 ] },
+                "south": { "texture": "#crate" },
+                "west":  { "texture": "#crate", "cullface": "west" },
+                "east":  { "texture": "#crate", "cullface": "east" }
+            }
+        },
+        {   "name": "beam_dse_une",
+            "from": [ 13.25, 3, 14 ],
+            "to": [ 15.25, 15, 16 ],
+            "rotation": { "origin": [ 0, 2, 16 ], "axis": "x", "angle": -45, "rescale": true },
+            "faces": {
+                "down":  { "texture": "#crate", "cullface": "down" },
+                "up":    { "texture": "#crate", "cullface": "up" },
+                "north": { "texture": "#crate", "uv": [ 0, 0, 2, 12 ] },
+                "south": { "texture": "#crate" },
+                "west":  { "texture": "#crate", "cullface": "west" },
+                "east":  { "texture": "#crate", "cullface": "east" }
+            }
+        },
+        {   "name": "beam_dsw_use",
+            "from": [ 0, 3, 13.5 ],
+            "to": [ 2, 15, 15.5 ],
+            "rotation": { "origin": [ 0, 2, 16 ], "axis": "z", "angle": -45, "rescale": true },
+            "faces": {
+                "down":  { "texture": "#crate", "cullface": "down" },
+                "up":    { "texture": "#crate", "cullface": "up" },
+                "north": { "texture": "#crate", "cullface": "north" },
+                "south": { "texture": "#crate", "cullface": "south" },
+                "west":  { "texture": "#crate" },
+                "east":  { "texture": "#crate", "uv": [ 0, 0, 2, 12 ] }
+            }
+        },
+        {   "name": "beam_dnw_une",
+            "from": [ 0, 3, 0.5 ],
+            "to": [ 2, 15, 2.5 ],
+            "rotation": { "origin": [ 0, 2, 0 ], "axis": "z", "angle": -45, "rescale": true },
+            "faces": {
+                "down":  { "texture": "#crate", "cullface": "down" },
+                "up":    { "texture": "#crate", "cullface": "up" },
+                "north": { "texture": "#crate", "cullface": "north" },
+                "south": { "texture": "#crate", "cullface": "south" },
+                "west":  { "texture": "#crate" },
+                "east":  { "texture": "#crate", "uv": [ 0, 0, 2, 12 ] }
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "color=white": { "model": "glass_white" },
+        "color=orange": { "model": "glass_orange" },
+        "color=magenta": { "model": "glass_magenta" },
+        "color=lightBlue": { "model": "glass_light_blue" },
+        "color=yellow": { "model": "glass_yellow" },
+        "color=lime": { "model": "glass_lime" },
+        "color=pink": { "model": "glass_pink" },
+        "color=gray": { "model": "glass_gray" },
+        "color=silver": { "model": "glass_silver" },
+        "color=cyan": { "model": "glass_cyan" },
+        "color=purple": { "model": "glass_purple" },
+        "color=blue": { "model": "glass_blue" },
+        "color=brown": { "model": "glass_brown" },
+        "color=green": { "model": "glass_green" },
+        "color=red": { "model": "glass_red" },
+        "color=black": { "model": "glass_black" }
+    }
+}

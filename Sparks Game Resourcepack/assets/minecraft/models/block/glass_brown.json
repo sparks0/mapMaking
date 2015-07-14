@@ -1,0 +1,8 @@
+{
+    "parent": "block/glass",
+    "textures": {
+        "particle": "blocks/glass_brown",
+        "glass": "blocks/glass_brown",
+        "eye": "blocks/glass_orange"
+    }
+}
