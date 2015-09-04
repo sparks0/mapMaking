@@ -1,0 +1,168 @@
+{
+"__comment": "Designed by Geenium with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net/cubik",
+"textures": {
+    "particle": "blocks/crate",
+    "crate": "blocks/crate",
+	"crate_fox": "blocks/crate_fox",
+    "inside": "blocks/crate_piston_head",
+    "side": "blocks/piston_side"
+},
+"elements": [ 
+{
+    "from": [ 1, 1, 1 ],
+    "to": [ 15, 15, 4 ],
+    "faces": {
+        "down":  { "uv": [ 1, 11.5, 15, 15 ], "texture": "#crate" },
+        "up":    { "uv": [ 1, 1, 15, 4 ], "texture": "#crate" },
+        "north": { "uv": [ 1, 1, 15, 15 ], "texture": "#crate", "cullface": "north" },
+        "south": { "uv": [ 1, 1, 15, 15 ], "texture": "#inside" },
+        "west":  { "uv": [ 1, 1, 4, 15 ], "texture": "#crate" },
+        "east":  { "uv": [ 12, 1, 15, 15 ], "texture": "#crate_fox" }
+    }
+},
+{
+    "from": [ 6, 6, 4 ],
+    "to": [ 10, 10, 16 ],
+    "faces": {
+        "down":  { "uv": [ 4, 0, 16, 4 ], "rotation": 90, "texture": "#side" },
+        "up":    { "uv": [ 4, 0, 16, 4 ], "rotation": 270, "texture": "#side" },
+        "west":  { "uv": [ 16, 4, 4, 0 ], "texture": "#side" },
+        "east":  { "uv": [ 4, 0, 16, 4 ], "texture": "#side" }
+    }
+},
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 2, 16, 2 ],
+    "faces": {
+        "down":  { "uv": [ 0, 14, 2, 16 ], "texture": "#crate", "cullface": "down" },
+        "up":    { "uv": [ 0, 0, 2, 2 ], "texture": "#crate", "cullface": "up" },
+        "north": { "uv": [ 14, 0, 16, 16 ], "texture": "#crate", "cullface": "north" },
+        "south": { "uv": [ 0, 0, 2, 16 ], "texture": "#crate" },
+        "west":  { "uv": [ 0, 0, 2, 16 ], "texture": "#crate", "cullface": "west" },
+        "east":  { "uv": [ 14, 0, 16, 16 ], "texture": "#crate", "cullface": "north" }
+    }
+},
+{
+    "from": [ 14, 0, 0 ],
+    "to": [ 16, 16, 2 ],
+    "faces": {
+        "down":  { "uv": [ 14, 14, 16, 16 ], "texture": "#crate", "cullface": "down" },
+        "up":    { "uv": [ 14, 0, 16, 2 ], "texture": "#crate", "cullface": "up" },
+        "north": { "uv": [ 0, 0, 2, 16 ], "texture": "#crate", "cullface": "north" },
+        "south": { "uv": [ 14, 0, 16, 16 ], "texture": "#crate" },
+        "west":  { "uv": [ 0, 0, 2, 16 ], "texture": "#crate", "cullface": "north" },
+        "east":  { "uv": [ 14, 0, 16, 16 ], "texture": "#crate", "cullface": "east" }
+    }
+},
+{
+    "from": [ 2, 0, 0 ],
+    "to": [ 14, 2, 2 ],
+    "faces": {
+        "down":  { "uv": [ 2, 14, 14, 16 ], "texture": "#crate", "cullface": "down" },
+        "up":    { "uv": [ 2, 0, 14, 2 ], "texture": "#crate", "cullface": "north" },
+        "north": { "uv": [ 2, 14, 14, 16 ], "texture": "#crate", "cullface": "north" },
+        "south": { "uv": [ 2, 14, 14, 16 ], "texture": "#crate" }
+    }
+},
+{
+    "from": [ 2, 14, 0 ],
+    "to": [ 14, 16, 2 ],
+    "faces": {
+        "down":  { "uv": [ 2, 14, 14, 16 ], "texture": "#crate", "cullface": "north" },
+        "up":    { "uv": [ 2, 0, 14, 2 ], "texture": "#crate", "cullface": "up" },
+        "north": { "uv": [ 2, 0, 14, 2 ], "texture": "#crate", "cullface": "north" },
+        "south": { "uv": [ 2, 0, 14, 2 ], "texture": "#crate" }
+    }
+},
+{
+    "from": [ 0, 14, 2 ],
+    "to": [ 2, 16, 4 ],
+    "faces": {
+        "down":  { "uv": [ 0, 12, 2, 14 ], "texture": "#crate" },
+        "up":    { "uv": [ 0, 2, 2, 4 ], "texture": "#crate", "cullface": "up" },
+        "south": { "uv": [ 0, 0, 2, 2 ], "texture": "#crate" },
+        "west":  { "uv": [ 2, 14, 4, 16 ], "texture": "#crate", "cullface": "west" },
+        "east":  { "uv": [ 12, 14, 14, 16 ], "texture": "#crate" }
+    }
+},
+{
+    "from": [ 14, 14, 2 ],
+    "to": [ 16, 16, 4 ],
+    "faces": {
+        "down":  { "uv": [ 14, 12, 16, 14 ], "texture": "#crate" },
+        "up":    { "uv": [ 14, 2, 16, 4 ], "texture": "#crate", "cullface": "up" },
+        "south": { "uv": [ 14, 0, 16, 2 ], "texture": "#crate" },
+        "west":  { "uv": [ 2, 14, 4, 16 ], "texture": "#crate" },
+        "east":  { "uv": [ 12, 14, 14, 16 ], "texture": "#crate", "cullface": "east" }
+    }
+},
+{
+    "from": [ 0, 0, 2 ],
+    "to": [ 2, 2, 4 ],
+    "faces": {
+        "down":  { "uv": [ 16, 4, 14, 2 ], "texture": "#crate", "cullface": "down" },
+        "up":    { "uv": [ 0, 2, 2, 4 ], "texture": "#crate" },
+        "south": { "uv": [ 0, 14, 2, 16 ], "texture": "#crate" },
+        "west":  { "uv": [ 2, 0, 4, 2 ], "texture": "#crate", "cullface": "west" },
+        "east":  { "uv": [ 12, 0, 14, 2 ], "texture": "#crate" }
+    }
+},
+{
+    "from": [ 14, 0, 2 ],
+    "to": [ 16, 2, 4 ],
+    "faces": {
+        "down":  { "uv": [ 14, 12, 16, 14 ], "texture": "#crate", "cullface": "down" },
+        "up":    { "uv": [ 14, 2, 16, 4 ], "texture": "#crate" },
+        "south": { "uv": [ 14, 14, 16, 16 ], "texture": "#crate" },
+        "west":  { "uv": [ 2, 0, 4, 2 ], "texture": "#crate" },
+        "east":  { "uv": [ 12, 0, 14, 2 ], "texture": "#crate", "cullface": "east" }
+    }
+},
+{   "name": "beam_dnw_une",
+            "from": [ 0, 3, 0.5 ],
+            "to": [ 2, 15, 2.5 ],
+            "rotation": { "origin": [ 0, 2, 0 ], "axis": "z", "angle": -45, "rescale": true },
+            "faces": {
+                "north": { "texture": "#crate", "cullface": "north" },
+                "west":  { "texture": "#crate" },
+                "east":  { "texture": "#crate", "uv": [ 0, 0, 2, 12 ] }
+            }
+        },
+				{   "name": "beam_dse_une",
+            "from": [ 13.25, 13, 14 ],
+            "to": [ 15.25, 15, 16 ],
+            "rotation": { "origin": [ 0, 2, 16 ], "axis": "x", "angle": -45, "rescale": true },
+            "faces": {
+                "down":  { "texture": "#crate" },
+                "north": { "texture": "#crate", "uv": [ 0, 0, 2, 12 ] },
+                "south": { "texture": "#crate" },
+                "west":  { "texture": "#crate" },
+                "east":  { "texture": "#crate", "uv": [ 0, 3, 2, 5 ] }
+            }
+        },
+        {   "name": "beam_dnw_usw",
+            "from": [ 0.5, 3, 0 ],
+            "to": [ 2.5, 5, 2 ],
+            "rotation": { "origin": [ 0, 2, 0 ], "axis": "x", "angle": 45, "rescale": true },
+            "faces": {
+                "up":    { "texture": "#crate" },
+                "north": { "texture": "#crate", "uv": [ 0, 10, 2, 12 ] },
+                "south": { "texture": "#crate" },
+                "west":  { "texture": "#crate", "uv": [ 0, 13, 2, 15 ] },
+                "east":  { "texture": "#crate" }
+            }
+        },
+        {   "name": "beam_dsw_unw",
+            "from": [ 0.25, 13, 14 ],
+            "to": [ 2.25, 15, 16 ],
+            "rotation": { "origin": [ 0, 2, 16 ], "axis": "x", "angle": -45, "rescale": true },
+            "faces": {
+                "down":  { "texture": "#crate" },
+                "north": { "texture": "#crate", "uv": [ 0, 0, 2, 12 ] },
+                "south": { "texture": "#crate" },
+                "west":  { "texture": "#crate", "uv": [ 14, 3, 16, 5 ] },
+                "east":  { "texture": "#crate" }
+            }
+        }
+]
+}

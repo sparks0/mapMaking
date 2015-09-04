@@ -1,0 +1,30 @@
+{
+"textures": {
+    "particle": "blocks/crate",
+    "crate": "blocks/crate"
+},
+"elements": [ 
+{
+    "from": [ 2, 2, 0 ],
+    "to": [ 14, 14, 4 ],
+    "faces": {
+        "down":  { "uv": [ 0, 0, 16, 4 ], "rotation": 180, "texture": "#crate" },
+        "up":    { "uv": [ 0, 0, 16, 4 ], "texture": "#crate" },
+        "north": { "uv": [ 1, 0.75, 15, 15 ], "texture": "#crate", "cullface": "north" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#crate" },
+        "west":  { "uv": [ 0, 0, 16, 4 ], "rotation": 270, "texture": "#crate" },
+        "east":  { "uv": [ 0, 0, 16, 4 ], "texture": "#crate" }
+    }
+},
+{
+    "from": [ 6, 6, 4 ],
+    "to": [ 10, 10, 16 ],
+    "faces": {
+        "down":  { "uv": [ 2, 14, 10, 16 ], "rotation": 90, "texture": "#crate" },
+        "up":    { "uv": [ 2, 0, 10, 2 ], "rotation": 270, "texture": "#crate" },
+        "west":  { "uv": [ 14, 2, 6, 0 ], "texture": "#crate" },
+        "east":  { "uv": [ 2, 14, 10, 16 ], "texture": "#crate" }
+    }
+}
+]
+}
