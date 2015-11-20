@@ -1,0 +1,125 @@
+{
+"__comment": "Designed by Sparks with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "flower_oxeye_daisy": "blocks/plantBase"
+},
+"elements": [ 
+{
+    "__comment": "stemMiddle",
+    "from": [ 7, 8.5, 7 ],
+    "to": [ 8, 11.5, 8 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 15, 15 ], "texture": "#flower_oxeye_daisy" },
+        "up":    { "uv": [ 0, 0, 1, 1 ], "texture": "#flower_oxeye_daisy" },
+        "north": { "uv": [ 16, 0, 15, 3 ], "texture": "#flower_oxeye_daisy" },
+        "south": { "uv": [ 0, 0, 1, 3 ], "texture": "#flower_oxeye_daisy" },
+        "west":  { "uv": [ 0, 0, 1, 3 ], "texture": "#flower_oxeye_daisy" },
+        "east":  { "uv": [ 0, 0, 1, 3 ], "texture": "#flower_oxeye_daisy" }
+    }
+},
+{
+    "__comment": "StemBottom",
+    "from": [ 7.5, 0, 7.5 ],
+    "to": [ 8.5, 9, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 15, 15 ], "texture": "#flower_oxeye_daisy" },
+        "up":    { "uv": [ 0, 0, 1, 1 ], "texture": "#flower_oxeye_daisy" },
+        "north": { "uv": [ 16, 0, 15, 16 ], "texture": "#flower_oxeye_daisy" },
+        "south": { "uv": [ 0, 0, 1, 16 ], "texture": "#flower_oxeye_daisy" },
+        "west":  { "uv": [ 0, 0, 1, 15.5 ], "texture": "#flower_oxeye_daisy" },
+        "east":  { "uv": [ 0, 0, 1, 16 ], "texture": "#flower_oxeye_daisy" }
+    }
+},
+{
+    "__comment": "stemTop",
+    "from": [ 7.5, 0.5, 7 ],
+    "to": [ 8.5, 1.5, 7.5 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 15, 15 ], "texture": "#flower_oxeye_daisy" },
+        "up":    { "uv": [ 0, 0, 1, 1 ], "texture": "#flower_oxeye_daisy" },
+        "north": { "uv": [ 16, 0, 15, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "south": { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "west":  { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "east":  { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" }
+    }
+},
+{
+    "__comment": "leaf1",
+    "from": [ 6.5, 11, 6.5 ],
+    "to": [ 7.5, 17.5, 7.5 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 15, 15 ], "texture": "#flower_oxeye_daisy" },
+        "up":    { "uv": [ 0, 0, 1, 1 ], "texture": "#flower_oxeye_daisy" },
+        "north": { "uv": [ 16, 0, 15, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "south": { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "west":  { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "east":  { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" }
+    }
+},
+{
+    "__comment": "leaf2",
+    "from": [ 6.5, 2, 2 ],
+    "to": [ 9.5, 2.5, 5.5 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 15, 15 ], "texture": "#flower_oxeye_daisy" },
+        "up":    { "uv": [ 0, 0, 1, 1 ], "texture": "#flower_oxeye_daisy" },
+        "north": { "uv": [ 16, 0, 15, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "south": { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "west":  { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "east":  { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" }
+    }
+},
+{
+    "__comment": "leaf3",
+    "from": [ 7.5, 1.5, 6 ],
+    "to": [ 8.5, 2, 7 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 15, 15 ], "texture": "#flower_oxeye_daisy" },
+        "up":    { "uv": [ 0, 0, 1, 1 ], "texture": "#flower_oxeye_daisy" },
+        "north": { "uv": [ 16, 0, 15, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "south": { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "west":  { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "east":  { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" }
+    }
+},
+{
+    "__comment": "leafMain1",
+    "from": [ 7, 2, 4 ],
+    "to": [ 9, 2.5, 6 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 15, 15 ], "texture": "#flower_oxeye_daisy" },
+        "up":    { "uv": [ 0, 0, 1, 1 ], "texture": "#flower_oxeye_daisy" },
+        "north": { "uv": [ 16, 0, 15, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "south": { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "west":  { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "east":  { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" }
+    }
+},
+{
+    "__comment": "leaf5",
+    "from": [ 7.5, 2, 0 ],
+    "to": [ 8.5, 2.5, 1 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 15, 15 ], "texture": "#flower_oxeye_daisy" },
+        "up":    { "uv": [ 0, 0, 1, 1 ], "texture": "#flower_oxeye_daisy" },
+        "north": { "uv": [ 16, 0, 15, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "south": { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "west":  { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "east":  { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" }
+    }
+},
+{
+    "__comment": "leaf5*",
+    "from": [ 7, 2, 1 ],
+    "to": [ 9, 2.5, 2 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 15, 15 ], "texture": "#flower_oxeye_daisy" },
+        "up":    { "uv": [ 0, 0, 1, 1 ], "texture": "#flower_oxeye_daisy" },
+        "north": { "uv": [ 16, 0, 15, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "south": { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "west":  { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" },
+        "east":  { "uv": [ 0, 0, 1, 6.5 ], "texture": "#flower_oxeye_daisy" }
+    }
+}
+]
+}

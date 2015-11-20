@@ -9,6 +9,15 @@ credit the resource creator if you use their materials.
 
  Resource Credit:
  
- Crate and fox crystal textures/model: @kovolta
- Piston Crate Texture/model: @geenium_96
- TNT Crate texture: Hello Me 
+ @kovolta
+	Crate and fox crystal textures/model
+
+@geenium_96
+	Piston Crate Texture/model 
+	Flowers texture/model
+	
+@NeunEinser
+	TNT Crate model/texture
+	
+Special Thanks:
+	Samasaurus6

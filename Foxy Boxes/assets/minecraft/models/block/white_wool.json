@@ -1,0 +1,7 @@
+{
+	"parent": "block/crate_tnt",
+    "textures": {
+        "particle": "blocks/crate_tnt_1",
+        "crate": "blocks/crate_tnt_1"
+    }
+}

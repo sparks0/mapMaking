@@ -1,8 +1,51 @@
 {
-    "parent": "block/glass",
-    "textures": {
-        "particle": "blocks/glass_black",
-        "glass": "blocks/glass_black",
-        "eye": "blocks/glass_yellow"
+"__comment": "Designed by Sparks with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "texture": "blocks/glass_white",
+    "quartz_block_lines": "blocks/quartz_block_bottom",
+    "sea_lantern": "blocks/sea_lantern"
+},
+"elements": [ 
+{
+    "__comment": "inset",
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 8.5, 16 ],
+    "shade": false,
+    "faces": {
+        "down":  { "uv": [ 16, 1, 15, 0 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#quartz_block_lines" },
+        "north": { "uv": [ 16, 16, 0, 0 ], "texture": "#quartz_block_lines" },
+        "south": { "uv": [ 0, 16, 16, 0 ], "texture": "#quartz_block_lines" },
+        "west":  { "uv": [ 0, 16, 16, 0 ], "texture": "#quartz_block_lines" },
+        "east":  { "uv": [ 16, 16, 0, 0 ], "texture": "#quartz_block_lines" }
     }
+},
+{
+    "__comment": "strip light 1",
+    "from": [ 3.5, 3.5, 0 ],
+    "to": [ 5.5, 5.5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 5.5, 14, 4, 2 ], "texture": "#sea_lantern" },
+        "up":    { "uv": [ 10.5, 2, 12.5, 14 ], "texture": "#sea_lantern" },
+        "north": { "uv": [ 3.5, 10.5, 5.5, 12.5 ], "texture": "#sea_lantern" },
+        "south": { "uv": [ 10.5, 10.5, 12.5, 12.5 ], "texture": "#sea_lantern" },
+        "west":  { "uv": [ 2, 10.5, 14, 12.5 ], "texture": "#sea_lantern" },
+        "east":  { "uv": [ 2, 10.5, 14, 12.5 ], "texture": "#sea_lantern" }
+    }
+},
+{
+    "__comment": "strip light 1*",
+    "from": [ 10.5, 3.5, 0 ],
+    "to": [ 12.5, 5.5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 5.5, 14, 4, 2 ], "texture": "#sea_lantern" },
+        "up":    { "uv": [ 10.5, 2, 12.5, 14 ], "texture": "#sea_lantern" },
+        "north": { "uv": [ 3.5, 10.5, 5.5, 12.5 ], "texture": "#sea_lantern" },
+        "south": { "uv": [ 10.5, 10.5, 12.5, 12.5 ], "texture": "#sea_lantern" },
+        "west":  { "uv": [ 2, 10.5, 14, 12.5 ], "texture": "#sea_lantern" },
+        "east":  { "uv": [ 2, 10.5, 14, 12.5 ], "texture": "#sea_lantern" }
+    }
+}
+]
 }

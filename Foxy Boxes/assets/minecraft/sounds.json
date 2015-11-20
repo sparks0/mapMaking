@@ -1,0 +1,13 @@
+{
+
+"tntCrateRoomy":{
+	"category":"master",
+	"sounds":[
+		{
+			"name":"FoxyBoxes/tntCrateRoomy",
+			"stream":true
+		}
+
+	]
+}
+}
