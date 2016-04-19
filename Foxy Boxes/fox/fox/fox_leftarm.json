@@ -1,0 +1,29 @@
+{
+"__comment": "Designed by Rottennugget with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "texture": "fox/fox_stand"
+},
+"elements": [ 
+{
+    "__comment": "left_arm",
+    "from": [ 12, 14, 12.5 ],
+    "to": [ 16, 26, 16.5 ],
+    "rotation": { "origin": [ 12, 26, 12.5 ], "axis": "x", "angle": 45 },
+    "faces": {
+        "down":  { "uv": [ 10.25, 0, 11.25, 1 ], "texture": "#texture" },
+        "up":    { "uv": [ 11.25, 0, 12.25, 1 ], "texture": "#texture" },
+        "north": { "uv": [ 9.25, 4, 10.25, 1 ], "texture": "#texture" },
+        "south": { "uv": [ 10.25, 4, 11.25, 1 ], "texture": "#texture" },
+        "west":  { "uv": [ 12.25, 4, 13.25, 1 ], "texture": "#texture" },
+        "east":  { "uv": [ 11.25, 4, 12.25, 1 ], "texture": "#texture" }
+    }
+}
+],
+"display": {
+    "head": {
+        "rotation": [ 0, -180, 0 ],
+        "translation": [ 0, -9.4, -1.7 ],
+        "scale": [ 1.8, 1.8, 1.8 ]
+    }
+}
+}

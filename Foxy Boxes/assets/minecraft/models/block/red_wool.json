@@ -2,6 +2,8 @@
 	"parent": "block/crate_tnt",
     "textures": {
         "particle": "blocks/crate_tnt_3",
-        "crate": "blocks/crate_tnt_3"
+        "crate_sign": "blocks/crate_tnt_3",
+		"crate_blank": "blocks/crate_blank",
+		"plate": "blocks/crate_tnt_deco"
     }
 }

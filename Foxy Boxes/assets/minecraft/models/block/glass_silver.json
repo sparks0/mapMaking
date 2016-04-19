@@ -1,8 +1,74 @@
 {
-    "parent": "block/glass",
-    "textures": {
-        "particle": "blocks/glass_silver",
-        "glass": "blocks/glass_silver",
-        "eye": "blocks/glass_yellow"
+"__comment": "Designed by Sparks with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "texture": "blocks/girder",
+    "genericGrey": "blocks/genericGrey"
+},
+"elements": [ 
+{
+    "from": [ 14.5, 0, -16 ],
+    "to": [ 16, 13.5, 32 ],
+    "faces": {
+        "down":  { "uv": [ 1.5, 16, 0, 0 ], "texture": "#genericGrey" },
+        "up":    { "uv": [ 14.5, 0, 16, 16 ], "texture": "#genericGrey" },
+        "west":  { "uv": [ 0, 5.5, 16, 10.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 5.5, 16, 10.5 ], "texture": "#texture" }
     }
+},
+{
+    "from": [ -16, 0, -15.5 ],
+    "to": [ 17.5, 0.5, -14.5 ],
+    "rotation": { "origin": [ -16, 0.5, -15.5 ], "axis": "z", "angle": 22.5 },
+    "faces": {
+        "down":  { "uv": [ 16, 0, 1.5, 0 ], "texture": "#genericGrey" },
+        "north": { "uv": [ 1.5, 15, 16, 15.5 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 15, 14.5, 15.5 ], "texture": "#genericGrey" },
+        "west":  { "uv": [ 0, 15, 0, 15.5 ], "texture": "#genericGrey" },
+        "east":  { "uv": [ 16, 15, 16, 15.5 ], "texture": "#genericGrey" }
+    }
+},
+{
+    "from": [ -16, 12.8125, 19.5625 ],
+    "to": [ 17.5, 13.3125, 20.5625 ],
+    "rotation": { "origin": [ -16, 13.3125, 19.5625 ], "axis": "z", "angle": -22.5 },
+    "faces": {
+        "down":  { "uv": [ 16, 0, 1.5, 0 ], "texture": "#genericGrey" },
+        "north": { "uv": [ 1.5, 15, 16, 15.5 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 15, 14.5, 15.5 ], "texture": "#genericGrey" },
+        "west":  { "uv": [ 0, 15, 0, 15.5 ], "texture": "#genericGrey" },
+        "east":  { "uv": [ 16, 15, 16, 15.5 ], "texture": "#genericGrey" }
+    }
+},
+{
+    "from": [ -16, 0, 8 ],
+    "to": [ 17.5, 0.5, 9 ],
+    "rotation": { "origin": [ -16, 0.5, 8 ], "axis": "z", "angle": 22.5 },
+    "faces": {
+        "down":  { "uv": [ 16, 0, 1.5, 0 ], "texture": "#genericGrey" },
+        "north": { "uv": [ 1.5, 15, 16, 15.5 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 15, 14.5, 15.5 ], "texture": "#genericGrey" },
+        "west":  { "uv": [ 0, 15, 0, 15.5 ], "texture": "#genericGrey" },
+        "east":  { "uv": [ 16, 15, 16, 15.5 ], "texture": "#genericGrey" }
+    }
+},
+{
+    "from": [ -15.9375, 12.6875, -4.5 ],
+    "to": [ 17.0625, 13.1875, -3.5 ],
+    "rotation": { "origin": [ -15.9375, 13.1875, -4.5 ], "axis": "z", "angle": -22.5 },
+    "faces": {
+        "down":  { "uv": [ 16, 0, 1.5, 0 ], "texture": "#genericGrey" },
+        "north": { "uv": [ 1.5, 15, 16, 15.5 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 15, 14.5, 15.5 ], "texture": "#genericGrey" },
+        "west":  { "uv": [ 0, 15, 0, 15.5 ], "texture": "#genericGrey" },
+        "east":  { "uv": [ 16, 15, 16, 15.5 ], "texture": "#genericGrey" }
+    }
+}
+],
+"display": {
+    "gui": {
+        "rotation": [ 0, -35, 0 ],
+        "translation": [ -3.02, 0, 0 ],
+        "scale": [ 0.5, 0.5, 0.5 ]
+    }
+}
 }
