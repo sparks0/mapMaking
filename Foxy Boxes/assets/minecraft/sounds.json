@@ -7,7 +7,15 @@
 			"name":"FoxyBoxes/tntCrateRoomy",
 			"stream":true
 		}
-
+	]
+},
+"weHaveToGo":{
+	"category":"master",
+	"sounds":[
+		{
+			"name":"FoxyBoxes/weHaveToGo",
+			"stream":true
+		}
 	]
 }
 }

@@ -1,0 +1,13 @@
+{
+    "parent": "block/cube_bottom_top",
+    "variants":{
+		"normal":[
+			{
+				"model":"sandstone_normal1"
+			},
+			{
+				"model":"sandstone_normal2"
+			}
+		]
+	}
+}

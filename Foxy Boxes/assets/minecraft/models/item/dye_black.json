@@ -1,0 +1,60 @@
+{
+"__comment": "Designed by Sparks with BDcraft Cubik PRO 0.96 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "menuScreenBeamBack": "items/menuScreenBeamBack",
+    "arm": "items/arm"
+},
+"elements": [ 
+{
+    "from": [ -7, 1.9375, -7 ],
+    "to": [ 20, 2, 20 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#menuScreenBeamBack" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#arm" }
+    }
+}
+],
+"display": {
+    "thirdperson_righthand": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 0, 0, 0 ]
+    },
+    "thirdperson_lefthand": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 0, 0, 0 ]
+    },
+    "head": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 0, 0, 0 ]
+    },
+    "ground": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 0, 0, 0 ]
+    },
+    "fixed": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 0, 0, 0 ]
+    },
+    "firstperson_righthand": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 0, 0, 0 ]
+    },
+    "firstperson_lefthand": {
+        "rotation": [ 90, 0, 0 ],
+        "translation": [ -12.09, -3.4, -3.4 ],
+        "scale": [ 4, 4, 4 ]
+    },
+    "gui": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 0, 0, 0 ]
+    }
+}
+}
