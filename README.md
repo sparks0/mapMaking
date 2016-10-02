@@ -78,6 +78,8 @@ ProRed
         Bottle_Model
         File_Cabinet_Closed_Model
         File_Cabinet_Open_Model
+	textures:
+		jungle_log
 		
 Finn Else-McCormick:
 	Iron doors
